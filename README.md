@@ -81,8 +81,9 @@ This is a CRUD application (Create, Read, Update, Delete) using server side Node
 
 ## Deploy app to Heroku :rocket:
 
-- Sign up or Login in `https://www.heroku.com/home`
+- Sign up or Login in `https://www.heroku.com
 - New, Create new app, Connect to GitHub as deployment method
 - Connect to GitHub and search for GitHub app, then `connect`
 - Set automatic or manual deployment and then `deploy branch`
-- Ensure `Procfile` is created in root folder and include `web:node [name of server file].js`
+- Ensure `Procfile` is created in root folder and include `web:node [name of server file].js` 
+- Check Settings `Config Vars` to change the way your app behaves
