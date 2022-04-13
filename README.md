@@ -1,4 +1,5 @@
-# Project-Storybooks 
+# Project-Storybooks
+
 This is a CRUD application (Create, Read, Update, Delete) using server side Node.js, Express, MongoDB Atlas Cloud and Google Authorisation :smiley:
 
 ## Create and Initialise Repository
@@ -79,11 +80,21 @@ This is a CRUD application (Create, Read, Update, Delete) using server side Node
 - Run example test to check it works
 - Create test file in cypress/integration file
 
+## Selenium WebDriver E2E Testing :white_check_mark:
+
+- `npm install selenium-webdriver -g` Installation of Selenium libraries for Javascript
+- `echo $PATH` see directory PATH to download webdrivers
+- `safaridriver` shows Safari browser driver is installed
+- create Selenium test file `openbrowser.js` in root folder
+- include test script `https://www.npmjs.com/package/selenium-webdriver` and include `safari` that opens the web browser
+- run Safari Web driver command to open in Safari web browser `sudo safaridriver --enable` to accept the script
+- `node selenium/openbrowser.js` to run the Safari browser and start tests
+
 ## Deploy app to Heroku :rocket:
 
 - Sign up or Login in `https://www.heroku.com
 - New, Create new app, Connect to GitHub as deployment method
 - Connect to GitHub and search for GitHub app, then `connect`
 - Set automatic or manual deployment and then `deploy branch`
-- Ensure `Procfile` is created in root folder and include `web:node [name of server file].js` 
+- Ensure `Procfile` is created in root folder and include `web:node [name of server file].js`
 - Check Settings `Config Vars` to change the way your app behaves
